@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pakghar</string>
+    <string name="chinese">Chinese</string>
+    <string name="indian">Indian</string>
+    <string name="continental">Continental</string>
+    <string name="fastfood">Fast Food</string>
+    <string name="reservations">Reservation</string>
+    <string name="contact">Contact Us</string>
+    <string name="location">Location</string>>
+</resources>
