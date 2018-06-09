@@ -190,7 +190,8 @@
                         android:id="@+id/reservationlogo"
                         android:layout_height="110dp"
                         android:layout_width="110dp"
-                        android:src="@drawable/reservation" />
+                        android:src="@drawable/reservation"
+                        android:onClick="reserve"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -212,7 +213,8 @@
                         android:id="@+id/contactlogo"
                         android:layout_height="110dp"
                         android:layout_width="110dp"
-                        android:src="@drawable/contact" />
+                        android:src="@drawable/contact"
+                        android:onClick="getInTouch" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -246,11 +248,12 @@
                         android:id="@+id/location"
                         android:layout_height="110dp"
                         android:layout_width="110dp"
-                        android:src="@drawable/ic_location" />
+                        android:src="@drawable/ic_location"
+                        android:onClick="locate"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/reservations"
+                        android:text="@string/location"
                         android:layout_marginTop="3dp"
                         android:textSize="18sp" />
 
