@@ -18,6 +18,7 @@
             android:layout_height="match_parent"
             app:contentScrim="@color/colorPrimary"
             app:title="@string/app_name"
+            app:expandedTitleGravity="bottom|center_horizontal"
             app:layout_scrollFlags="exitUntilCollapsed|scroll" >
 
             <ImageView
